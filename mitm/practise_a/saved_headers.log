@@ -1,0 +1,17 @@
+20200305-211638 >>>
+Request_header:
+{"Accept": "text/html, application/xhtml+xml, */*", "Accept-Language": "zh-CN", "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko", "Accept-Encoding": "gzip, deflate", "Proxy-Connection": "Keep-Alive", "Host": "www.baidu.com"}
+Response_header:
+{"Connection": "keep-alive", "Content-Length": "154", "Content-Type": "text/html", "Date": "Fri, 06 Mar 2020 03:16:34 GMT", "Location": "https://www.baidu.com/", "P3p": "CP=\" OTI DSP COR IVA OUR IND COM \", CP=\" OTI DSP COR IVA OUR IND COM \"", "Server": "BWS/1.1", "Set-Cookie": "BAIDUID=3AB0BB42B99A52A04FB61A959F891B1C:FG=1; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com, BIDUPSID=3AB0BB42B99A52A04FB61A959F891B1C; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com, PSTM=1583464594; expires=Thu, 31-Dec-37 23:55:55 GMT; max-age=2147483647; path=/; domain=.baidu.com, BAIDUID=3AB0BB42B99A52A00521D78066FE16BF:FG=1; max-age=31536000; expires=Sat, 06-Mar-21 03:16:34 GMT; domain=.baidu.com; path=/; version=1; comment=bd, BD_LAST_QID=16012888396007550031; path=/; Max-Age=1", "Traceid": "1583464594026608282616012888396007550031", "X-Ua-Compatible": "IE=Edge,chrome=1"}
+
+20200305-211638 >>>
+Request_header:
+{"Accept": "text/html, application/xhtml+xml, */*", "Accept-Language": "zh-CN", "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko", "Accept-Encoding": "gzip, deflate", "Connection": "Keep-Alive", "Host": "www.baidu.com", "Cookie": "BAIDUID=3AB0BB42B99A52A00521D78066FE16BF:FG=1; BIDUPSID=3AB0BB42B99A52A04FB61A959F891B1C; PSTM=1583464594; BD_LAST_QID=16012888396007550031"}
+Response_header:
+{"Bdpagetype": "1", "Bdqid": "0x9558c23d00018fa0", "Cache-Control": "private", "Connection": "keep-alive", "Content-Encoding": "gzip", "Content-Type": "text/html", "Cxy_all": "baidu+743faa72aab72919e988acf17b0162c0", "Date": "Fri, 06 Mar 2020 03:16:34 GMT", "Expires": "Fri, 06 Mar 2020 03:16:31 GMT", "Server": "BWS/1.1", "Set-Cookie": "delPer=0; path=/; domain=.baidu.com, BDSVRTM=0; path=/, BD_HOME=0; path=/, H_PS_PSSID=30962_1441_21101_30823; path=/; domain=.baidu.com", "Strict-Transport-Security": "max-age=172800", "Traceid": "1583464594065569434610761564876850696096", "Vary": "Accept-Encoding", "X-Ua-Compatible": "IE=Edge,chrome=1", "Transfer-Encoding": "chunked"}
+
+20200305-211647 >>>
+Request_header:
+{"Accept": "text/html, application/xhtml+xml, */*", "Accept-Language": "zh-CN", "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko", "Accept-Encoding": "gzip, deflate", "Proxy-Connection": "Keep-Alive", "Host": "www.sogou.com", "Cookie": "ABTEST=0|1583399321|v17; browerV=0; osV=1; IPLOC=CN1100; SUID=5EA9F2961810990A000000005E60C199; SUV=1583399357248414; pgv_pvi=6432757760; sct=1; SNUID=956A3155C4C664E642658BBBC4688ACB; ld=Hkllllllll2WYzYolllllViPIAklllllOs3IUyllll9lllllxklll5@@@@@@@@@@"}
+Response_header:
+{"Server": "nginx", "Date": "Fri, 06 Mar 2020 03:16:48 GMT", "Content-Type": "text/html", "Transfer-Encoding": "chunked", "Connection": "keep-alive", "Location": "https://www.sogou.com/", "UUID": "e295f54c-6d75-412f-af33-6ef43cc74a83"}
