@@ -21,12 +21,11 @@ import openpyxl
 from openpyxl.utils.cell import get_column_letter, column_index_from_string
 
 from openpyxl.worksheet.worksheet import Worksheet
-from IPython.core.inputtransformer2 import cell_magic
 
 base_path = os.getcwd()
 sys.path.append(base_path)
 
-test_path = r'C:\Users\tom\Desktop'
+test_path = r'.'
 excel_file = os.path.join(test_path, 'test.xlsx')
 
 
@@ -219,11 +218,9 @@ class test_raw():
 
 
 if __name__ == '__main__':
-    use_backup(r'C:\Users\tom\Desktop\test_backup.xlsx')
+    use_backup(r'.\test_backup.xlsx')
     wb = load_excel()
-    
     ws = sheet_by_index(wb, 1)
-    
     handle = test_raw(wb, ws)
     
     handle.write_cell_value(6, 6, "newtest")
