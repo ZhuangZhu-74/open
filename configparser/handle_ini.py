@@ -29,8 +29,26 @@ class Handle_ini:
             print(e)
             exit(2)
         
-        # alias
-        self.get_value = self.cc.get
+    def get_value(self, option, section=None):
+        '''
+        如果 ini 只有一个section， 那么可以不传。
+        '''
+        if section == None:
+            if len(self.cc.sections()) == 1:
+                section = self.cc.sections()[0]
+            else:
+                print("Can't find section {}".format(section))
+                return None
+        else:
+            if not self.cc.has_section(section):
+                print("Can't find section {}".format(section))
+                return None
+            else:
+                if not self.cc.has_option(section, option):
+                    print("Can't find option: {} from section:{}".format(option, section))
+                    return None
+        
+        return self.cc.get(section, option)
         
     @staticmethod
     def get_encoding(target_file, length=10):
@@ -39,7 +57,7 @@ class Handle_ini:
         return file encoding
         '''
         with open(target_file, mode='rb') as f:
-            return chardet.detect(f.read(10))['encoding']
+            return chardet.detect(f.read())['encoding']
         
 
 if __name__ == '__main__':
