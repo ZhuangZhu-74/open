@@ -8,6 +8,10 @@
 - [微云文件上传的API测试](weiyun_upload)
 - [关于 Selenium 的 Python 绑定的元素截取图片实现](Selenium_python_elem_shot)
 
+## 项目
+
+- [使用 PageObject 模型与 ddt 测试在线计算器](modern)
+
 ## 探索
 
 - [chrome://  file:/// 究竟是什么？](URI)
