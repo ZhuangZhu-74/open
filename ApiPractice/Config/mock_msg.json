@@ -1,0 +1,12 @@
+{
+  "/get_json": [
+    {"10000": "Success"},
+    {"10001": "UserName Error"},
+    {"10002": "Password Error"}
+  ],
+  "/post_json": [
+    {"10000": "Success"},
+    {"10001": "UserName Error"},
+    {"10002": "Password Error"}
+  ]
+}

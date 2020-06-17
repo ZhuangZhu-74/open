@@ -1,0 +1,73 @@
+[
+  {
+    "request":{
+      "uri":"/get_text",
+      "method":"get"
+    },
+    "response":{
+      "status":"200",
+      "text":"mock OK"
+    }
+  },
+  {
+    "request":{
+      "uri":"/get_img",
+      "method":"get"
+    },
+    "response":{
+      "file":"logo_index_sosox2.png"
+    }
+  },
+{
+    "request":{
+      "uri":"/get_json",
+      "method":"get"
+    },
+    "response":{
+      "json":{
+        "errorcode": "10000",
+        "errordesc": "Success"
+      }
+    }
+  },
+  {
+    "request":{
+      "uri":"/post_json",
+      "method":"post"
+    },
+    "response":{
+      "json":{
+        "errorcode": "10001",
+        "errordesc": "Password Error"
+      }
+    }
+  },
+  {
+    "request":{
+      "uri":"/get_json2",
+      "method":"get"
+    },
+    "response":{
+      "json":{
+        "errorcode": "10000",
+        "Success":{
+          "test":"pass"
+        }
+      }
+    }
+  },
+  {
+    "request":{
+      "uri":"/post_json2",
+      "method":"post"
+    },
+    "response":{
+      "json":{
+        "errorcode": "10001",
+        "UserName Error":{
+          "test":"FAIL"
+        }
+      }
+    }
+  }
+]
