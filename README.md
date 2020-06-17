@@ -10,7 +10,8 @@
 
 ## 项目
 
-- [使用 PageObject 模型与 ddt 测试在线计算器](modern)
+- [基于 PageObject 模型与 ddt 对在线计算器执行 UI 测试](modern)
+- [基于 requests 和 ddt 的接口测试(API testing)](ApiPractice)
 
 ## 探索
 
