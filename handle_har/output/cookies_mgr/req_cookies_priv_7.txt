@@ -1,0 +1,8 @@
+# Generate for JMeter by  https://github.com/ZhuangZhu-74
+# Fields: domain, [忽略位，始终为 TRUE], path, secure, [忽略位，始终为 0] , name, value
+# Separator: tab
+
+	TRUE		FALSE	0	SNUID	7F89D3B7212586943467765221BABB76
+	TRUE		FALSE	0	IPLOC	CN1100
+	TRUE		FALSE	0	SUID	5EA9F2963108990A000000005EE07FBF
+	TRUE		FALSE	0	SUV	1591771117488234

@@ -1,0 +1,3 @@
+# Generate for JMeter by  https://github.com/ZhuangZhu-74
+# Fields: domain, [忽略位，始终为 TRUE], path, secure, [忽略位，始终为 0] , name, value
+# Separator: tab

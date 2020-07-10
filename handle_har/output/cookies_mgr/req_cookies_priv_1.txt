@@ -1,0 +1,9 @@
+# Generate for JMeter by  https://github.com/ZhuangZhu-74
+# Fields: domain, [忽略位，始终为 TRUE], path, secure, [忽略位，始终为 0] , name, value
+# Separator: tab
+
+	TRUE		FALSE	0	ABTEST	0|1591771231|v17
+	TRUE		FALSE	0	IPLOC	CN1100
+	TRUE		FALSE	0	SUID	5EA9F2962E08990A000000005EE0805F
+	TRUE		FALSE	0	browerV	3
+	TRUE		FALSE	0	osV	1

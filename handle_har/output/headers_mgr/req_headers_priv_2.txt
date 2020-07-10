@@ -1,0 +1,5 @@
+# Generate for JMeter by  https://github.com/ZhuangZhu-74
+# Fields: name, value
+# Separator: tab
+
+Referer	http://www.soso.com/
