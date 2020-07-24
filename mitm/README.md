@@ -34,12 +34,15 @@
 
 ### 另一种思路（20200416）
 
-随着我进一步的扩充知识面，`har`文件可能会更适合的拿来做数据文件，原因如下：
+随着我进一步的扩充知识面，`har`文件可能会更适合的拿来做数据源文件，原因如下：
 
 - [w3c标准](https://w3c.github.io/web-performance/specs/HAR/Overview.html)。
 - 本质是 `json` ，易于解析。
 - 包含了全部HTTP会话。
-- 相当多的浏览器(`Chrome`，`Edge`等)、抓包工具（`Fiddler`，`Charles`）、也包括我关注的mitmproxy支持[导出har文件](https://github.com/mitmproxy/mitmproxy/blob/master/examples/complex/har_dump.py)。
-- `har` 文件也可以通过[Blazemeter提供的在线转换器](https://converter.blazemeter.com/)转为 `JMeter` 支持的 `jmx` 格式。
+- 相当多的浏览器、抓包工具（`Fiddler`，`Charles`）、`mitmproxy` 支持 [导出为 har 文件](https://github.com/mitmproxy/mitmproxy/blob/master/examples/contrib/har_dump.py)。
+- `har` 文件也可以通过 [Blazemeter 提供的在线转换器](https://converter.blazemeter.com/) 转为 `JMeter` 支持的 `jmx` 格式。
 
-**TODO** 那么我只需要封装用于解析`har`文件的脚本就可以方便的在接口自动化脚本中调用了。
+那么我只需要封装用于解析`har`文件的脚本就可以方便的在接口自动化脚本中调用了。
+
+[har 文件的解析与转换](https://github.com/ZhuangZhu-74/open/tree/master/handle_har)。
+
