@@ -16,7 +16,20 @@
 - [基于 PageObject 模型与 ddt 对在线计算器执行 UI 测试](modern)
 - [基于 requests 和 ddt 的接口测试(API testing)](ApiPractice)
 
+### 计划中的技术升级
+- 日志： `logging（内建）` -> `loguru`
+
+- 测试框架： `unittest（内建）` -> `pytest`
+  - [从 unittest 迁移到 pytest](pytest)
+
+- 测试用例参数化：`ddt（用于unittest）` -> `@pytest.mark.parametrize()`
+
+- 测试报告： `HTMLTestRunner（第三方）` -> `pytest-html`（静态单一html）、`pytest-allure`（动态页面）
+
+- Debug： `print() 函数` -> `PySnooper`
+
+
 ## 探索
 
 - [chrome://  file:/// 究竟是什么？](URI)
-- [从 unittest 迁移到 pytest](pytest)
+
