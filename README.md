@@ -28,6 +28,8 @@
 
 - Debug： `print() 函数` -> `PySnooper`
 
+- `JSON` 信息处理： 内建 `json` 库 -> 增加 `JMESPath` 库
+  - [选择处理 JSON 信息的库](JMESPath)
 
 ## 探索
 
